@@ -52,7 +52,7 @@ const destiny = () => {
 
     const InitialPrincipal = PropertyValue * (1 - LVM);
     if (tax > 0) {
-        console.log("yearly tax pay: ", tax.toFixed(1) * -1);
+        console.log("yearly tax pay: ", tax.toFixed(1));
     } else {
         console.log("yearly tax return: ", tax.toFixed(1) * -1);
     }
